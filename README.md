@@ -1,6 +1,6 @@
 # Debian Ansible Docker Image
 
-Packer image for pet test in debian with ansible
+Docker image for pet test in debian with ansible
 
 ## Usage
 
