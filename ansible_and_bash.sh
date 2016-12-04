@@ -1,5 +1,9 @@
 #!/bin/bash
 
+/lib/systemd/systemd --system &
+
+sleep 5
+
 if [ ! -d /tmp/ansible ]; then
   echo "ansible directory not present please run container with -v \$PDW:/tmp/ansile"
   exit 1
